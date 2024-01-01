@@ -1,0 +1,216 @@
+https://www.youtube.com/watch?v=i49vABId-Lg&list=PL4cyC4G0M1RSTRMYXG4TKNbgMC_qokci1
+
+
+https://localhost:44331/api/students/3
+
+
+
+https://www.youtube.com/watch?v=l-95wnkvnLg&list=PL4cyC4G0M1RSmuLMaCfH3-31_JODwVGIK
+
+
+
+
+Ahmed El-Sayed .net core videos
+https://www.youtube.com/watch?v=AS1xREwVuqg&list=PLB2pNkhw8PWWJdXXjdMg3KSYg-oKMYTBj&index=2
+
+
+fundamentals of .net core
+https://www.youtube.com/watch?v=pfStvnz3Qcs&list=PLB2pNkhw8PWVe0u-5qi8-wllmHtYVKS0M
+
+DevCreed
+https://www.youtube.com/watch?v=I9eMtI_RnUQ&list=PL62tSREI9C-cHV28v-EqWinveTTAos8Pp&index=1
+
+https://www.youtube.com/watch?v=Fp6s89A136Q
+
+http://192.168.1.253:55/dashboard/home
+
+
+addscopped
+https://www.youtube.com/watch?v=qxUDE1Eo9sc
+
+
+http://192.168.1.253:55/login
+
+
+webForm
+https://www.youtube.com/watch?v=UPBSn56etuI
+
+
+
+mini backend project with ASP.net core web API to post/get/delete/put.
+
+
+
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Mahmoud272779/MobileBrands.git
+git branch -M main
+git push -u origin main
+
+
+git add .
+git commit -m "first commit"
+git push
+
+
+InvStpItemCardMaster
+
+
+
+
+https://www.youtube.com/@PassionateCoders/playlists ---->>>محمد المهدى
+
+https://www.youtube.com/playlist?list=PLwj1YcMhLRN2XM4anR01OHXu-7Ao43VTf ---. خالد السعدنى
+
+https://www.youtube.com/watch?v=Yh4r4kwXwEs&list=PLqPejUavRNTWqGYP-f1pHkbLYdbqi_Uhg&index=38 -->محمد المحمدى
+
+EntityFrameworkCore\Add-Migration Holidays -context ClientSqlDbContext 
+
+login and registtareion
+https://www.youtube.com/watch?v=1qgY8U5ceOs
+
+
+
+SELECT TOP (1000) [Id]
+      ,[userAccountid]
+      ,[token]
+      ,[signinDateTime]
+      ,[lastActionTime]
+      ,[isLogout]
+      ,[isLocked]
+      ,[logoutDateTime]
+      ,[stayLoggedin]
+	  
+  FROM [_AttendLeaving_2023_1_20231113122719].[dbo].[signinLogs]
+  order by Id desc
+
+
+
+moaz
+040288
+
+
+
+Token :
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJSb2xlRGV0YWlscyI6IkorT0ZWUlJGVVhIWXNNb1I3VU1ubXc9PSIsIkRCbmFtZSI6IkpFRHUrRDExNjhDdSt5NnYwOGpQMi9LTmhESVk2MjJlNWhEUzRHVGpsYzd2RzBKYUFwcExHdXFpRVlJSEtVYm8iLCJ1c2VySUQiOiJVT1FUeGFraVNWWTdhbEE0VlNjUDRRPT0iLCJFbmRQZXJpb2RPbkVuZFBlcmlvZE9uIjoiMTMvMTEvMjAzNiAxMjowMDowMCDYtSIsImVtcGxveWVlSWQiOiJVT1FUeGFraVNWWTdhbEE0VlNjUDRRPT0iLCJDTCI6ImtXYjdkb3dzRzU4VXYyUisvVG5GclE9PSIsImlzUE9TRGVza3RvcCI6IjAiLCJpc1RlY2huaWNhbFN1cHBvcnQiOiIwIiwiaXNQZXJpb2RFbmRlZCI6IkZhbHNlIiwiZXhwIjoxNzAxMzYyMjI0LCJpc3MiOiJodHRwOi8vd3d3LlRlc3QuY29tIiwiYXVkIjoiaHR0cDovL3d3dy5UZXN0LmNvbSJ9.x7M4lFYwwO-QNT4VWMyJAfgAifdGS2j_jq8M4hJltwU
+
+
+http://192.168.1.253:82/swagger
+http://192.168.1.253:8009/#/Ar/TAW/Start/Login/ttech
+
+
+
+
+ public bool checkForeignKey(int[] branches, int empid, int jobid, int depid, int secid, int groupid, int branchid, int shiftmasterid)
+ {
+    if(
+        ! _employeesQuery.TableNoTracking.Any(c => c.Id==empid) ||
+       ! branches.All(id => _GLBranchQuery.TableNoTracking.Select(branch => branch.Id).Contains(id)) || )
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+app.api --->Rclick then publish
+10 files ---> 4 app.api without runtimeconfig , 2 applications , 2 infras , 2 domain
+go to ttech and check server status
+remote desktop -->192.168.1.253
+Go to AttendLEavingBackend
+stop
+explore folder 
+start again
+
+test--->http://192.168.1.253:82/swagger/index.html
+UI----> http://192.168.1.253:97/login 
+company name = AttendLeaving  ,username = admin, pass = admin
+pass ---> P@$$w0rd4
+
+
+
+
+Debug
+-----
+F10 --> next line
+F11---> enter the function 
+
+
+
+many to many 
+------------
+make composite model(ex. EmployeesHloidays) --> model1 m1 , model2 m2 , int model1_Id , int model2_Id
+Icollection of (composite model)  in model1
+Icollection of (composite model)  in model2
+configuration for composite model only because it has the FKs (int model1_Id , int model2_Id)
+
+
+Configuration
+------------
+public void Configure(EntityTypeBuilder<HolidaysEmployees> builder)
+{
+    builder.ToTable(nameof(HolidaysEmployees));
+    builder.HasKey(x => x.Id);
+    builder.HasOne(c => c.Employees).WithMany(c => c.EmployeesHolidays).HasForeignKey(c => c.EmployeesId).OnDelete(DeleteBehavior.NoAction);
+    builder.HasOne(c => c.Holidays).WithMany(c => c.EmployeesHolidays).HasForeignKey(c => c.HolidaysId).OnDelete(DeleteBehavior.NoAction);
+}
+
+
+
+
+
+
+one to many
+------------
+
+
+public class ShiftsMaster
+{
+    public int Id { get; set; }
+    public string arabicName { get; set; }
+    public string latinName { get; set; }
+
+    public ICollection<ChangefulTimeGroupsMaster> changefulTimeGroups { get; set; } 
+}
+
+
+
+Put ShiftsMaster object and shiftsMasterId in ChangefulTimeGroupsMaster
+
+
+ public class ChangefulTimeGroupsMaster
+ {
+     public int Id { get; set; } 
+     public string arabicName { get; set; }
+     public string latinName { get; set; }
+
+     public int shiftsMasterId { get; set; }
+     public ShiftsMaster shiftsMaster { get; set; }
+}
+
+
+Configuration
+--------------
+
+ public void Configure(EntityTypeBuilder<ChangefulTimeGroupsMaster> builder)
+ {
+     builder.ToTable(nameof(ChangefulTimeGroupsMaster));
+     builder.HasKey(x => x.Id);
+     builder.HasOne(c=> c.shiftsMaster).WithMany(c=> c.changefulTimeGroups).HasForeignKey(c=> c.shiftsMasterId).OnDelete(DeleteBehavior.NoAction);
+ }
+
+
+public void Configure(EntityTypeBuilder<ShiftsMaster> builder)
+{
+    builder.ToTable(nameof(ShiftsMaster));
+    builder.HasKey(x => x.Id);
+}
