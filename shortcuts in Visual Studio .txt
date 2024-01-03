@@ -1,0 +1,37 @@
+ctrl + x ---> cut entire line without selecting
+
+ctrl + k then ctrl + c -----> comment the selected code
+
+ctrl + k then ctrl + u -----> Uncomment the selected code
+
+
+
+ctrl + enter ---> add a line above
+
+ctrl + shift + enter ----> add a line below
+
+put the cursor in the var then ctrl + r then ctrl + r ---> rename all
+
+
+Go to Definition ---> F12
+
+find all refrences --->shift + F12
+
+move the line or chunck of selected code  above / down ---> Alt + up / Alt + down
+
+format the doc ---- > ctrl + k then ctrl + d
+
+surround with  ----> ctrl + k then ctrl + s
+
+Hide the implemention of class or function ---> ctrl+m then ctrl + o
+
+implement interface --->ctrl + . 
+
+
+
+
+
+
+
+
+
