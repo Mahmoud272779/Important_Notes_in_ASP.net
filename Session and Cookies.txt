@@ -1,0 +1,17 @@
+Session
+------
+ مخزن بيانات بيتخزن على السيرفر و بيخزن بيانات يوزر معين عشان السيرفر يستخدم البيانات دى لما اليوزر ده يعمل ريكوست و يقدر يرجعله داتا 
+
+
+Cookies
+------
+مخزن بيانات  بيتخزن على البروزار بتاع الكلاينت و بيخزن بيانات اليوزر بردو
+
+
+How Sessions Work:
+-------------------
+When a user visits a website, a unique session ID is often generated and stored as a cookie on the user's browser.
+The session ID is used to associate the user with a session on the server where user-specific data is stored.
+Session data is typically stored on the server, and the server sends the session ID to the client in the form of a cookie.
+Subsequent requests from the client include the session ID, allowing the server to retrieve the user's session data.
+a combination of cookies and sessions is used to manage user state and authentication in web applications.
