@@ -29,6 +29,7 @@ choose  the directions that having the msot variance
 
 
 NN --> like neurons in brain
+convolutional neural nn
 
 
 
