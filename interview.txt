@@ -2,6 +2,7 @@
 name , gradute from ,live ain shams , was interted in college in AI /ML especially my gradution project was in ml ,AI ,
  from month 8 : 1 track Backend with nodejs , .net   
 
+
 AI--> any technique enabling computers to mimic the human intelligence using logic , if then rules 
 
 ML--> subset of AI using statistical methods to do tasks (give it features and it will give you the classification)
@@ -10,5 +11,27 @@ DL--> subset of ml (feature extraction and classification)
       need big data , high computional power , so use it in complex problems
       neural networks
 
-class and regression
+
+classifcation --> predict label 
+regression--> quatity
+
+
+types of classifiers --> minimum distace(average) , nn , knn, Bayes classifiier , AdaBoost classifier combines weak (p= random gussing)
+ to get strong , svm , decision tree
+
+feature selection ---> from n features , choose subset of n 
+feature extractiuon ---> transform n into L by transformation as PCA
+
+curse of dim , overfitting
+
+PCA   -->is to transform a high-dimensional dataset into a lower-dimensional , 
+choose  the directions that having the msot variance
+
+
+NN --> like neurons in brain
+
+
+
+
+
       
