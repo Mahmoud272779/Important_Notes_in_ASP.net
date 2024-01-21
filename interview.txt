@@ -24,7 +24,7 @@ feature extractiuon ---> transform n into L by transformation as PCA
 
 curse of dim , overfitting
 
-PCA   -->is to transform a high-dimensional dataset into a lower-dimensional , 
+PCA   -->is used for dimension reduction. to transform a high-dimensional dataset into a lower-dimensional , 
 choose  the directions that having the msot variance
 
 
