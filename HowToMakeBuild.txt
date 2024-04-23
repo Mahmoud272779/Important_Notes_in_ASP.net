@@ -2,7 +2,7 @@
 2-Change main.js --> search on (server) and comment serverPort  and uncomment localhostPort
 3-open IIS Manger on your PC ,Add Site , add path to the folder in step_1 , add port as 1006
 4-web.config --> delete <modules>
-
+5-Browse to open the webSite
 
   <?xml version="1.0" encoding="utf-8"?>
 <!--
